@@ -1,0 +1,9 @@
+name: WarpCommand
+main: com.github.vahnatai.warpcommand.WarpCommandPlugin
+version: 0.0.1
+commands:
+   warp:
+      description: Warp command.
+      usage: /warp [srcplayer] (x y z [world]) | (targetplayer)
+      permission: warp.warp
+      permission-message: You do not have permission to use that command.
