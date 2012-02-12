@@ -1,0 +1,9 @@
+name: WorldCommand
+main: com.github.vahnatai.worldcommand.WorldCommandPlugin
+version: 0.0.1
+commands:
+   warp:
+      description: World command.
+      usage: /world
+      permission: world.world
+      permission-message: You do not have permission to use that command.
