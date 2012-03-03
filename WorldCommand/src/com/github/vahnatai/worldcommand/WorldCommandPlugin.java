@@ -9,6 +9,7 @@ public class WorldCommandPlugin extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		executor = new WorldCommandExecutor(this);
+		getServer().getPluginManager().registerEvents(new PortalEventListener(this), this);
 		getCommand("world").setExecutor(executor);
 	}
 	
